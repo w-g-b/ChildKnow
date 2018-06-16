@@ -2,14 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum PageName  {
-
+public enum PageName
+{
     Home,
-    Main,
-    Shower,
-    Toilet,
-    Closet,
-    Outdoor,
-    Study,
-    Center
+    ParentCenter,
+    BoyMain,
+    BoyShower,
+    BoyToilet,
+    BoyCloset,
+    BoyLost,
+    BoyBook,
+    BoyShowerToCloset,
+    BoyToParentCenter,
+    GirlMain,
+    GirlShower,
+    GirlToilet,
+    GirlCloset,
+    GirlLost,
+    GirlBook,
+    GirlShowerToCloset,
+    GirlToParentCenter
 }
