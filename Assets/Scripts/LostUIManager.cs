@@ -12,11 +12,9 @@ public class LostUIManager : MonoBehaviour
     public GameObject womanErrorPanel;
     public Text phoneNumber;
     public Animator boyAnimator;
-    public AudioSource bgAdAudioSource;
 
     public void OnClickWomanOrOldmanBtn()
     {
-        bgAdAudioSource.Stop();
         policePanel.SetActive(false);
         womanPanel.SetActive(true);
         rightPanel.SetActive(false);
@@ -26,7 +24,6 @@ public class LostUIManager : MonoBehaviour
 
     public void OnClickPoliceBtn()
     {
-        bgAdAudioSource.Stop();
         policePanel.SetActive(true);
         womanPanel.SetActive(false);
         rightPanel.SetActive(false);

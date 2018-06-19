@@ -9,15 +9,24 @@ public class ToiletUIManager : MonoBehaviour
     public Animator washHandAnimator;
     public Animator tolietWaterAnimator;
     public AudioSource audioSource;
+    public AudioSource washAudioSource;
     public float timePlayAudio = 5f;
+    public float timePlayWashAudio = 8f;
 
     public void Update()
     {
         timePlayAudio -= Time.deltaTime;
+        timePlayWashAudio -= Time.deltaTime;
         if (timePlayAudio <= 0)
         {
             timePlayAudio = 100000000;
             audioSource.Play();
+        }
+
+        if (timePlayWashAudio <= 0)
+        {
+            timePlayWashAudio = 100000000;
+            washAudioSource.Play();
         }
     }
 

@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Home.unity
     guid: 51d683065d94da944a7084cc8f000675
   - enabled: 1
-    path: Assets/Scenes/ParentCenter.unity
-    guid: fd429115e52c4d343b1d3454bf5efee2
-  - enabled: 1
     path: Assets/Scenes/BoyMain.unity
     guid: b4af4aba31ee88247b5843a32efc50a4
   - enabled: 1
@@ -24,14 +21,17 @@ EditorBuildSettings:
     path: Assets/Scenes/BoyLost.unity
     guid: 13d3fd682b938da4c84e8dc4dbc5483a
   - enabled: 1
+    path: Assets/Scenes/BoyShowerToCloset.unity
+    guid: ca5d9e7736e6b4148a40d3b762d301fa
+  - enabled: 1
+    path: Assets/Scenes/GirlShowerToCloset.unity
+    guid: a647c31efab171b468671bedf6684561
+  - enabled: 1
     path: Assets/Scenes/BoyCloset.unity
     guid: 6c32e2a733beada44aca0339ca27909d
   - enabled: 1
     path: Assets/Scenes/BoyBook.unity
     guid: aa307ee928f604842ad586f62c343dda
-  - enabled: 1
-    path: Assets/Scenes/BoyShowerToCloset.unity
-    guid: 2e700f83a1628b74e8000ca0e01b4a14
   - enabled: 1
     path: Assets/Scenes/GirlBook.unity
     guid: 71b87977e57b58646910d4b2caed165e
@@ -42,14 +42,14 @@ EditorBuildSettings:
     path: Assets/Scenes/BoyToParentCenter.unity
     guid: 06e5b872cd1f4e6418d7a33d352a78d4
   - enabled: 1
-    path: Assets/Scenes/GirlToParentCenter.unity
-    guid: 7f6e2ca434922134097cba12afde36a8
-  - enabled: 1
-    path: Assets/Scenes/GirlShowerToCloset.unity
-    guid: 3ab6134b50a3bee4b9c4586cc7ee9543
-  - enabled: 1
     path: Assets/Scenes/GirlLost.unity
     guid: 297c2cdca3a1dae48a28cc7652cdf190
+  - enabled: 1
+    path: Assets/Scenes/GirlToParentCenter.unity
+    guid: 82efe05696a03b64887bc0629ba0a46b
+  - enabled: 1
+    path: Assets/Scenes/ParentCenter.unity
+    guid: d5533175d0b9c3348b453a04180ca8a4
   - enabled: 1
     path: Assets/Scenes/GirlMain.unity
     guid: 6df8ff4f2040e5845802786dabc72639
